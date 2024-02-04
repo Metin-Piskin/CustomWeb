@@ -1,0 +1,57 @@
+.AboutContainer {
+    flex: 1;
+    background-color: #121921;
+    display: flex;
+    align-items: center;
+    padding: 0px 75px;
+}
+
+.AboutUsAvatarImg {
+    width: 350px;
+    border-radius: 200px;
+
+    transition: transform 1s;
+    transform: translateX(-100%);
+    visibility: hidden;
+}
+
+.AboutUsAvatarImg.visible {
+    transform: translateX(0%);
+    visibility: visible;
+}
+
+.AboutUsTextContainer {
+    margin-left: 55px;
+}
+
+.AboutUsTitle {
+    color: #FE5406;
+    
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 25px;
+
+    opacity: 0;
+    transform: translateY(100%);
+    transition: transform 1s ease, opacity 1s ease;
+    margin: 10px 0;
+}
+
+.AboutUsTitle.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.AboutUsText {
+    
+
+    opacity: 0;
+    transform: translateY(100%);
+    transition: transform 1s ease, opacity 1s ease;
+    margin: 10px 0;
+}
+
+.AboutUsText.visible {
+    opacity: 1;
+    transform: translateY(0);
+}

@@ -1,0 +1,9 @@
+.VisitContainer {
+    flex: 1;
+    background-color: #121921;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}

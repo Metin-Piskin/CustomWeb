@@ -1,0 +1,29 @@
+.TopRightHeaderContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 10vh;
+    width: 15.82vw;
+    background-color: #121921;
+    border-left: 2px solid #181F26;
+    border-bottom: 2px solid #181F26;
+}
+
+.TopRightHeaderInput {
+    position: absolute;
+    color: #FE5406;
+    background-color: #181F26;
+    border: 0;
+    padding: 5px 5px;
+    border-radius: 5px;
+
+    opacity: 0;
+    transform: translateY(0);
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.TopRightHeaderInput.onvisible {
+    opacity: 1;
+    transform: translateY(130%);
+}

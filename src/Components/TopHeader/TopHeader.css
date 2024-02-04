@@ -1,0 +1,16 @@
+.TopHeaderContainer{
+    display: flex;
+    flex-direction: column;
+    height: 10vh;
+    flex: 1;
+    background-color: #121921;
+    border-bottom: 2px solid #181F26; 
+    justify-content: center;
+    align-items: center;
+}
+
+.TopHeaderLogoImg{
+    width: 65px;
+    height: 55px;
+    filter: brightness(0) invert(0.8);
+}

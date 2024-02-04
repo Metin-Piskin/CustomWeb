@@ -1,0 +1,43 @@
+.LoginContainer {
+    flex: 1;
+    background-color: #121921;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.LoginTitle{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 28px;
+    color: #FE5500;
+}
+
+.LoginFromContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.LoginInputContainer {
+    color: red;
+}
+
+.LoginInput {
+    background-color: #fff;
+    color: #000;
+    border: 0px;
+    margin: 5px;
+    height: 30px;
+    width: 175px;
+    border-radius: 5px;
+}
+
+.LoginFormButton{
+    background-color: #FE5500;
+    border: 0px;
+    margin: 5px;
+    border-radius: 5px;
+    height: 30px;
+    cursor: pointer;
+}

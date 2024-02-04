@@ -1,0 +1,44 @@
+.ContactContainer {
+    flex: 1;
+    background-color: #121921;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ContactFromContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 0px 50px;
+    color: #FE5500;
+}
+
+.ContactInputs {
+    background-color: #fff;
+    color: #000;
+    border: 0px;
+    margin: 5px;
+    height: 30px;
+    width: 175px;
+    border-radius: 5px;
+}
+
+.ContactMessageInput{
+    background-color: #fff;
+    color: #000;
+    border: 0px;
+    margin: 5px;
+    height: 150px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.ContactFormButton{
+    background-color: #FE5500;
+    border: 0px;
+    margin: 5px;
+    border-radius: 5px;
+    height: 30px;
+    cursor: pointer;
+}
